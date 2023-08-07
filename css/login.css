@@ -1,0 +1,72 @@
+body {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ), url("../img/1.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.login {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: rgb(160,112,12);
+    background: linear-gradient(90deg, rgba(160,112,12,1) 0%, rgba(194,169,136,1) 50%, rgba(171,162,89,1) 100%);
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+    font-family: 'Tangerine', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.formulario {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__label {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15px;
+    display: block;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.formulario__input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+
+.boton {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background: #e0e0e0;
+}

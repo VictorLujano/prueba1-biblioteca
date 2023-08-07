@@ -1,0 +1,66 @@
+h1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    margin: 0;
+    padding: 0;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    border-spacing: 10px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: black;
+    color: white;
+    
+}
+
+td {
+    border: 1px solid #ccc;
+}
+
+.boton {
+    background-color: #e5be01;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.boton:hover{
+    background-color: #c49d01;
+}
+
+.boton-actualizar {
+    background-color: #3498db;
+    color: white;
+}
+
+.boton-actualizar:hover {
+    background-color: #1c6ea4;
+    filter: brightness(0.8);
+}
+
+.boton-eliminar {
+    background-color: #FF0000;
+    color: white;
+}
+
+.boton-eliminar:hover {
+    background-color: #990000;
+}
